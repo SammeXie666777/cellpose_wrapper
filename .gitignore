@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Cellpose / pipeline outputs
+*_seg.npy
+*_masks.tif
+*_mask.mat
+*_overlay.tif
+*.pth
+
+# Cluster job artifacts
+logs/
+job_logs/
+manifests/
+qsubs/
+*.pbs
+*.out
+*.err

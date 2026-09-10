@@ -1,0 +1,6 @@
+cellpose>=4.0
+numpy
+scipy
+tifffile
+matplotlib
+tqdm
